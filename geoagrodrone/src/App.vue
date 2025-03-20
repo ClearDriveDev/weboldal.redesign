@@ -1,5 +1,10 @@
 <script setup>
+import { onMounted  } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
+
+onMounted(() => {
+  
+})
 </script>
 
 <template>
@@ -12,8 +17,6 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterView />
   </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>

@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import ServicesView from '../views/ServicesView.vue'
-import PlantStatePriceView from '../views/PlantStatePriceView.vue';
-import DamageAssessmentPriceView from '../views/DamageAssessmentPriceView.vue';
+/*import PlantStatePriceView from '../views/PlantStatePriceView.vue';
+import DamageAssessmentPriceView from '../views/DamageAssessmentPriceView.vue';*/
 
-Vue.use(Router);
+//Vue.use(Router);
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,10 +14,10 @@ const router = createRouter({
       component: "",
     },
     {
-      path: '/srevices',
+      path: '/services',
       name: 'services',
       component: () => import('../views/ServicesView.vue'),
-    },
+    }/*,
     {
       path: '/plant-statePrice',
       name: 'plantStatePriceView',
@@ -27,7 +27,7 @@ const router = createRouter({
       path: '/damageAssessmentPrice',
       name: 'damageAssessmentPrice',
       component: DamageAssessmentPrice
-    },
+    },*/
   ],
 })
 
