@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-center">Üdvözöljük!</h1>
+    <h1 class="text-center">Rólunk</h1>
     <div>
       
     </div>
