@@ -12,7 +12,7 @@
 h1{
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 20px;
+  padding-top: 20px;
   color: black;
 }
 </style>

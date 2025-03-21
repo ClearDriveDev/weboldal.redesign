@@ -9,6 +9,7 @@ onMounted(() => {
 
 <template>
   <header>
+    <h5 class="text-center">Készüljünk együtt a következő szezonra!</h5>
     <img src="/images/szantofold.jpg" alt="Szántóföld" class="headerBg">
     <h1>{{ headerText }}</h1>
     <div class="container">
@@ -31,7 +32,6 @@ header {
   background-size: auto;
   background-position: center center;
   background-repeat: repeat;
-  background-color: burlywood
 }
 
 .headerBg{
@@ -40,12 +40,14 @@ header {
   opacity: 0.9;
 }
 
-body{
-  background-color: burlywood;
-}
-
 h1{
   color: white;
   font-size: 20px;
+}
+
+h5{
+  height: 50px;
+  padding: 13px;
+  background-color: rgb(255, 221, 110);
 }
 </style>
