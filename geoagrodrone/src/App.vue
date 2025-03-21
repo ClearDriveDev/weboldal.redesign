@@ -31,12 +31,17 @@ header {
   background-size: auto;
   background-position: center center;
   background-repeat: repeat;
+  background-color: burlywood
 }
 
 .headerBg{
   height: 250px;
   width: 100%;
   opacity: 0.9;
+}
+
+body{
+  background-color: burlywood;
 }
 
 h1{

@@ -1,13 +1,13 @@
 <template>
   <h1 class="text-center">Szolgáltatások</h1>
-  <div class="containerS">
+  <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="card col-12 col-md-4 col-lg-3 mb-4">
         <img src="/images/PlantScience.jpg" alt="Kép a növényekről" title="Kép a növényekről" class="card-img-top">
         <div class="card-body">
           <p class="felirat1 m-0 text-center">Növényállapot felmérés</p>
           <p class="felirat2 m-0 text-center">stressztérkép, NDVI térkép</p>
-          <router-link to="/plantStatePrice" title="Árak" class="btn btnS btn-outline-dark btn-info">
+          <router-link to="/plantStatePrice" title="Árak" class="btn btn-outline-dark btn-info">
             Árak
           </router-link>
         </div>
@@ -18,7 +18,7 @@
         <div class="card-body">
           <p class="felirat1 m-0 text-center">Kárfelmérés</p>
           <p class="felirat2 m-0 text-center">pl.: vadkár, belvíz</p>
-          <router-link to="/damageAssessmentPrice" title="Árak" class="btn btnS btn-outline-dark btn-info">
+          <router-link to="/damageAssessmentPrice" title="Árak" class="btn btn-outline-dark btn-info">
             Árak
           </router-link>
         </div>
@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-    import {ref} from 'vue'
+
 </script>
 
 <style scoped>
@@ -39,7 +39,7 @@ h1{
   color: black;
 }
 
-.containerS {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ h1{
   font-size: 20px;
 }
 
-.btnS{
+.btn{
   width: 200px;
   display: flex;
   margin-top: 10px;
