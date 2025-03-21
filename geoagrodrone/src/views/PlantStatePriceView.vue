@@ -8,7 +8,7 @@
 
 </script>
   
-<style>
+<style scoped>
 h1{
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
