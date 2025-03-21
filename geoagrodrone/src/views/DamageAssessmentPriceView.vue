@@ -1,13 +1,11 @@
 <template>
     <div>
-      <h1>Damage Assessment Price View</h1>
+      <h1 class="text-center">Kárfelmérés</h1>
     </div>
 </template>
   
-<script>
-export default {
-name: 'DamageAssessmentPriceView',
-}
+<script setup>
+
 </script>
 
 <style>

@@ -14,9 +14,11 @@ onMounted(() => {
         <RouterLink class="btn btn-outline-info btn-dark m-2" to="/">HomeView</RouterLink>
         <RouterLink class="btn btn-outline-info btn-dark m-2" to="/services">Szolgáltatások</RouterLink>
       </nav>
-    <RouterView />
   </div>
   </header>
+  <body>
+    <RouterView />
+  </body>
 </template>
 
 <style scoped>

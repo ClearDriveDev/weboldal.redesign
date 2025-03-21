@@ -1,13 +1,11 @@
 <template>
     <div>
-      <h1>Plant State Price View</h1>
+      <h1 class="text-center">Növényállapot felmérés</h1>
     </div>
 </template>
   
-<script>
-export default {
-name: 'PlantStatePriceView',
-}
+<script setup>
+
 </script>
   
 <style>
