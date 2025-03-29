@@ -37,9 +37,12 @@ const references = [
 
 <style scoped>
 .carousel-container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
 }
 
 .carousel-item {
@@ -47,16 +50,31 @@ const references = [
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
 }
 
 .carousel-image {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item:hover .carousel-image {
+  transform: scale(1.1);
 }
 
 .carousel-text {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 15px;
+  font-size: 20px;
   font-weight: bold;
+  color: #333;
 }
 </style>
