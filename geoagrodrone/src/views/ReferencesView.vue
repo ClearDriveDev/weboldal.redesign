@@ -29,9 +29,9 @@ import { Navigation, Pagination } from 'swiper/modules';
 const modules = [Navigation, Pagination];
 
 const references = [
-  { image: 'https://via.placeholder.com/300', title: 'Referencia 1' },
-  { image: 'https://via.placeholder.com/300', title: 'Referencia 2' },
-  { image: 'https://via.placeholder.com/300', title: 'Referencia 3' }
+  { image: '/images/PlantDamage.jpg', },
+  { image: '/images/kep1.jpg', },
+  { image: '/images/kep2.jpg',  }
 ];
 </script>
 
