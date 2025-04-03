@@ -55,7 +55,7 @@ h1{
 .card{
   border: 3px solid black;
   margin: 10px;
-  background-color: crimson;
+  background-color: #009688;
   color: white;
   padding: 10px;
   width: 450px;
